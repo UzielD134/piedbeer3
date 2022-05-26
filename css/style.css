@@ -1,0 +1,161 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+html{
+    height: 100%;
+}
+
+body{
+    background-image:url(../recursos/ve-lifestyle-bares-header-3.jpg);
+    background-size:100% 100%;
+    background-attachment: fixed;
+    background-repeat:no-repeat ;
+    min-height: 100%;
+    
+    
+}
+
+footer{
+    font-size:15px ;
+    margin-left: 5pxpx;
+    margin-right: 5px;
+    margin-top: 30px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: rgb(254, 255, 213);
+    background-image:linear-gradient(to right, rgb(0, 0, 0) ,rgb(7, 7, 31) ) ;
+    padding: 30px;
+    grid-area:footer;
+}
+
+
+
+
+
+
+
+
+h1{
+    display: flex;
+    color: rgb(255, 245, 211);    
+    background-image:linear-gradient(to right, rgb(0, 0, 0) ,rgb(7, 7, 31) ) ;
+    font-size: 60px;
+    font-family: 'Lobster', cursive;
+    flex-wrap: wrap;
+    
+
+}
+
+
+.navegation__edited{
+    text-decoration:line-through;
+}
+
+/*ul{  
+    
+    list-style-type: none;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    background-image: linear-gradient(to top, rgb(255, 242, 206) , rgb(255, 255, 255) );
+    border: 1px solid rgb(0, 0, 0);
+
+
+
+}
+
+li{
+
+       
+    
+    
+    font-size: 20px;
+    padding: 12px;
+    width: 200px;
+    
+    
+    
+    
+}
+*/
+a{
+    text-decoration: none;
+    color: rgb(12, 10, 3);
+}
+
+
+   
+    
+
+.section__caja{
+     
+    justify-items: center;
+    background-image: url(../recursos/wood-background-presentation-png_253935.jpg);
+    background-attachment:fixed;
+    margin: 50px;
+    
+    
+    
+         
+
+}
+
+
+
+.section__nombres{
+ 
+    font-family: 'Lobster', cursive;
+    color: rgb(255, 255, 255);
+    font-size: 40px;        
+    padding: 10px;
+    margin: 20px;
+    justify-content: center;
+    
+    background-image:linear-gradient(to right, rgb(0, 0, 0) ,rgb(7, 7, 31) ) ;
+    
+    
+}
+
+
+
+.section__descripcion{
+    display: flex;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    padding: 20px;
+    font-size: 30px;
+    justify-items: right;
+    color: rgb(0, 0, 0);
+    justify-content:center;
+    
+   
+}
+
+
+
+
+.section__img{
+    display: flex;
+    width: 700px;
+    height :500px;
+    justify-content: center;
+}
+
+.section__subrayado{
+    display: flex;
+    text-decoration:underline;
+    font-family:cursive;
+    font-size: 40px;
+    color: rgb(0, 0, 0);
+    justify-content: center;
+    
+   
+}
+
+.contacto__section{
+    margin: 10px;
+    padding: 10px;
+
+}
+
+.section__p{
+    color: rgb(255, 255, 255);
+    background-image:linear-gradient(to right, rgb(0, 0, 0) ,rgb(7, 7, 31));
+}
