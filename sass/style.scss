@@ -1,3 +1,6 @@
+@import 'footer';
+@import 'galeria';
+
 *{
     margin: 0px;
     padding: 0px;
@@ -16,19 +19,6 @@ body{
     
 }
 
-footer{
-    font-size:15px ;
-    margin-left: 5pxpx;
-    margin-right: 5px;
-    margin-top: 30px;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    color: rgb(254, 255, 213);
-    background-image:linear-gradient(to right, rgb(0, 0, 0) ,rgb(7, 7, 31) ) ;
-    padding: 30px;
-    grid-area:footer;
-}
-
-
 
 
 
@@ -37,7 +27,7 @@ footer{
 
 h1{
     display: flex;
-    color: rgb(255, 245, 211);    
+    color: rgb(255, 238, 175);    
     background-image:linear-gradient(to right, rgb(0, 0, 0) ,rgb(7, 7, 31) ) ;
     font-size: 60px;
     font-family: 'Lobster', cursive;
@@ -54,19 +44,22 @@ h1{
 
 a{
     text-decoration: none;
-    color: rgb(12, 10, 3);
+    color: rgb(156, 137, 67);
+    font-family: "Homer Simpson UI";
+    
 }
 
 
    
     
-.section {
+.section{
     &__caja{
      
-        justify-items: center;
+        justify-content: center;
         background-image: url(../recursos/wood-background-presentation-png_253935.jpg);
-        background-attachment:fixed;
-        margin: 50px;}
+        
+        
+    }
 
     &__nombres{
  
@@ -76,7 +69,7 @@ a{
         padding: 10px;
         margin: 20px;
         justify-content: center;
-        background-image:linear-gradient(to right, rgb(33, 33, 33) ,rgb(7, 7, 31) ) ;
+        background-image:linear-gradient(to right, rgb(0, 0, 0) ,rgb(7, 7, 31) ) ;
         
         }
     &__descripcion{
@@ -111,11 +104,15 @@ a{
 
 .contacto__section{
     margin: 10px;
-    padding: 10px;
+    padding: 5px;
 
 }
 
 .section__p{
     color: rgb(255, 255, 255);
-    background-image:linear-gradient(to right, rgb(0, 0, 0) ,rgb(7, 7, 31));
+    background-color: rgb(0, 0, 0);
+    margin: 20px;
+    font-family: "Homer Simpson UI";
+    
+
 }
